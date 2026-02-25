@@ -1,7 +1,7 @@
 {
   "schemaVersion": 1,
   "id": "animalrefresh",
-  "version": "1.0.0",
+  "version": "${version}",
   "depends": {
     "fishmodloader": ">=3.0.0"
   },
@@ -13,8 +13,8 @@
   ],
   "entrypoints": {
     "main": [
-          "com.inf1nlty.animalrefresh.AnimalRefreshMod"
-        ]
+      "com.inf1nlty.animalrefresh.AnimalRefreshMod"
+    ]
   },
   "mixins": [
     "animalrefresh.mixins.json"
